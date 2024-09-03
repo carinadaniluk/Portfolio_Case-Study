@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e3b9f2;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+header ul {
+  float: right;
+  color: white;
+  margin-top: 5px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+header p {
+  display: inline-block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.HeroImg {
+  padding: 100px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1%;
+  box-shadow: 5px 5px 15px #6F8FAF;
+  background-color: #111;
+  color: #ffffff;
+  border-radius: 20px
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+  padding: 11px;
+}
+
+#flex-skills {
+  margin: 0px 5%;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+#row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(237, 210, 249, 0.45);
+  padding: 10px 0 10px 30px;
+  border-radius: 10px;
+  width: 300px;
+
+}
+
+#projects {
+  margin: 0px 5%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 50px;
+}
+
+.project1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 50px;
+  grid-template-areas: "img text";
+}
+
+.project1 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-details1 {
+  grid-area: text;
+  padding: 30px;
+}
+
+.project2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 50px;
+  grid-template-areas: "text img";
+}
+
+.project2 img {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: cover;
+}
+
+.project-details2 {
+  grid-area: text;
+  padding-left: 0px;
+  padding: 30px;
+}
+
+.project-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.project-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#nspku-img:hover {
+  background-color: white;
+  opacity: 20%;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#forecaddie-img:hover {
+  background-color: white;
+  opacity: 20%;
+  cursor: pointer;
+  transform: scale(1.05)
+}
+
+button {
+  padding: 10px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #e3b9f2;
+  padding: 5px;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+@media only all and (max-width:1000px) {
+
+  .skills {
+    flex-direction: column !important;
+  }
+
+  .flex-item {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}
