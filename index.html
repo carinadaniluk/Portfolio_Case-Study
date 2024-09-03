@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Module 19 Homework</title>
+  <link href="./css/style.css" id="stylesheet" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="inline-block logo">
+      <h1>Carina Daniluk</h1>
+    </div>
+    <ul>
+      <li class="inline-block themeChange light-mode"><a href="#">LIGHT-MODE</a></li>
+      <li class="inline-block themeChange dark-mode"><a href="#">DARK-MODE</a></li>
+      <li class="inline-block"><a href="#">ABOUT</a></li>
+      <li class="inline-block"><a href="#">SKILLS</a></li>
+      <li class="inline-block"><a href="#">WORK</a></li>
+      <li class="inline-block"><a href="#">CONTACT</a></li>
+    </ul>
+  </header>
+
+
+  <section class="Hero">
+    <div class="content">
+      <img src="./images/Me.png" alt="This is Me" class="center" width="200px">
+      <h1>Hello!</h1>
+      <p>My name is Carina Daniluk, and I am a UX/UI designer who is
+        passionate about creating accessible, responsive and
+        intuitive designs for the user experience.</p>
+      <p>I am a seasoned retail professional with years of experience as a buyer
+        with a digital first mindset. This has allowed me to bridge the gap of in store
+        and online shoppers alike. Taking my passion of digital commerce and the
+        customer shopping journey, I set out with a goal to dive into UX and UI to
+        expand my knowledge and experience in this digital world.</p>
+      <button>Download Resume</button>
+    </div>
+  </section>
+
+  <!-------Flexbox Section - Flexbox Skills-->
+  <section id="flex-skills">
+    <h1>My UX Skills</h1>
+    <div id="row" class="flex skills">
+
+      <div class="flex-item">
+        <h1>Skill 1</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+      <div class="flex-item">
+        <h1>Skill 2</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+      <div class="flex-item">
+        <h1>Skill 3</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+    </div>
+    <br>
+    <div id="row" class="flex skills">
+
+      <div class="flex-item">
+        <h1>Skill 4</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+      <div class="flex-item">
+        <h1>Skill 5</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+      <div class="flex-item">
+        <h1>Skill 6</h1>
+        <p>Lorem ipsum</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-----CSS Grid Skills-->
+  <section id="projects">
+    <h1>My Work</h1>
+    <div class="grid">
+      <div class="project1">
+        <img src="./images/nspku.png" id="nspku-img">
+        <div class="project-details1">
+          <h3 class="project-title">Non-Profit Website Redesign</h3>
+          <p class="project-text">As a group, I worked with fellow UX designers to redesign the non-profit organization
+            website of NSPKU.org.</p>
+        </div>
+      </div>
+      <div class="project2">
+        <img src="./images/forecaddie.png" id="forecaddie-img">
+        <div class="project-details2">
+          <h3 class="project-title">Fore Caddie App</h3>
+          <p class="project-text">As a UX Designer, I created a travel app focused on golfers as a travel aid, or "Fore
+            Caddie", to help users enjoy their trip without having to stress on the details. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li class="inline-block"><a href="#">ABOUT</a></li>
+      <li class="inline-block"><a href="#">SKILLS</a></li>
+      <li class="inline-block"><a href="#">WORK</a></li>
+      <li class="inline-block"><a href="#">CONTACT</a></li>
+    </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+  <script src="./js/themeChange.js"></script>
+</body>
+</html>
